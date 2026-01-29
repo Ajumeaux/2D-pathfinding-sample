@@ -81,9 +81,8 @@ The output prints a list of path steps:
 .
 ├── CMakeLists.txt
 ├── include/
-│   └── pathfinder/
-│       ├── Grid.hpp        # Vec2 + IGrid interface (no external dependencies)
-│       └── PathFinder.hpp
+│   ├── Grid.hpp        # Vec2 + IGrid interface (no external dependencies)
+│   └── PathFinder.hpp
 ├── src/
 │   └── PathFinder.cpp
 └── examples/
