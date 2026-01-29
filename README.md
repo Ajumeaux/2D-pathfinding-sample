@@ -9,6 +9,11 @@ A **platformer-oriented pathfinding** prototype in C++ based on a **3-step graph
 This repository is intentionally kept small as a **code sample** extracted from a larger 2D side-scroller project.  
 It focuses on the **graph-building logic** (walk / drop / jump) and a minimal CLI example to prove it compiles.
 
+### Related code samples (same 2D project)
+
+- **Stats via TOML** — data-driven character/skill tuning for players & modders: https://github.com/Ajumeaux/stats-toml-sample
+- **Thread pool** — coming soon (next code sample from the same project)
+
 ---
 
 ## Key ideas
@@ -157,3 +162,4 @@ So the algorithm first generates a **movement graph** and then runs A* on it.
 
 Do whatever you want with this code — just keep the copyright notice.  
 Released under the MIT License. See the `LICENSE` file.
+
