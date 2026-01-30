@@ -12,7 +12,7 @@ It focuses on the **graph-building logic** (walk / drop / jump) and a minimal CL
 ### Related code samples (same 2D project)
 
 - **Stats via TOML** — data-driven character/skill tuning for players & modders: https://github.com/Ajumeaux/stats-toml-sample
-- **Thread pool** — coming soon (next code sample from the same project)
+- **Thread pool** — scalable C++20 task pool used by the same project: https://github.com/Ajumeaux/taskpool-sample
 
 ---
 
@@ -162,4 +162,5 @@ So the algorithm first generates a **movement graph** and then runs A* on it.
 
 Do whatever you want with this code — just keep the copyright notice.  
 Released under the MIT License. See the `LICENSE` file.
+
 
